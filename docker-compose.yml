@@ -3,7 +3,6 @@ services:
     image: node:20-slim
     container_name: node
     working_dir: /app
-    user: node
     volumes:
       - .:/app
     ports:
