@@ -10,7 +10,7 @@ services:
       - "3000:3000"
     networks:
       - app-network
-    # command: ["npm", "run", "dev"]
+    command: ["npm", "run", "dev"]
     environment:
       NODE_ENV: development
 
